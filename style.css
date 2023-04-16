@@ -1,0 +1,374 @@
+*{
+
+    margin:0px;
+  
+    padding:0px;
+  
+  }
+  
+  body {
+  
+      font-size: 15pt;
+  
+  }
+  
+  #header{
+  
+    background:skyblue;
+    width:100%;
+  
+    position:fixed;
+  
+  }
+  
+  .logo{
+  
+    top:0px;
+  
+  }
+  
+  .logo-img
+  
+  {
+  
+    display:flex;
+  
+    float:right;
+
+    width:5%;
+  
+    margin:0.5px 0px;
+  
+    
+  
+  }
+  
+  .navbar{
+  
+    padding-left:5%;
+  
+    overflow:auto;
+  
+   
+  
+  }
+  
+  ul li{
+  
+    display: inline-block;
+  
+    margin:10px;
+  
+  }
+  
+  a{
+  
+    text-decoration:none;
+  
+    font-size:40px;
+  
+    color:white;
+  
+  }
+  
+  .bg-img{
+  
+    background-image: url('/images/IMG.jpeg');
+  
+    background-repeat:no-repeat;
+  
+    background-size:cover;
+  
+    
+  
+    height:850px;
+  
+    margin:auto;
+  
+  }
+  
+  .bg-text{
+  
+    text-align:center;
+  
+    padding-top:250px;
+  
+    font-size:30px;
+  
+    color:red;
+  
+  }
+  
+  .bg-btn{
+  
+    display:inline-block;
+  
+    border:2px solid green;
+  
+    background:pink;
+  
+    
+  
+  }
+  
+  #features{
+  
+    text-align: center;
+  
+    color:green;
+  
+    background-color:black;
+  
+    width:100%;
+  
+    height:700px;
+  
+    font-size:40px;
+  
+    font-family: 'poppins' ;
+  
+    
+  
+  }
+  
+  .abt-img{
+  
+    float:right;
+  
+    width: 500px;
+  
+    height:500px;
+    margin-top: 50px;
+
+    margin-right: 150px;
+    
+
+   
+  
+  }
+  
+  .abt-text{
+  
+   margin-top:50px;
+  
+    font-size:35px;
+  
+    color :white;
+  
+    padding-left:70px;
+  
+  }
+  
+  .abt-text span{
+  
+    border-style:outset;
+  
+    display:block;
+  
+    width:600px;
+  
+    height:450px;
+  
+    margin-left:30px;
+  
+    font-family: Arial;
+  
+  }
+  
+  #services{
+  
+   max-width:100%;
+  
+    background : lightseagreen;
+  
+    text-align:center;
+  
+    
+  
+  }
+  
+   #services h1{
+  
+    font-size:50px;
+  
+  }
+  
+  .gallery {
+  
+          display: flex;
+  
+          justify-content:center;
+  
+          align-items:center;
+  
+          flex-wrap: wrap;
+  
+       
+  
+        
+  
+        }
+  
+   .gallery img{
+  
+     width:370px;
+  
+     height:350px;
+  
+     border:2px solid blue;
+  
+     border-radius:13px;
+  
+     box-shadow:4px 7px 7px 0px ;
+  
+     cursor:pointer;
+  
+     margin:30px;
+  
+     
+  
+    
+  
+   }
+  
+   
+  
+     
+  
+  #Contact h2{
+  
+     text-align:center;
+  
+     font-size:50px;
+  
+     background:rgb(30, 210, 63);
+     
+  
+   }
+  
+  .info{
+  
+    background-image:url('/images/IMG_20230325_223742.jpeg');
+  
+    
+  
+    height:400px;
+  
+    text-align:center;
+  
+    
+  
+   
+  
+  }
+  
+  .info div p{
+  
+    color:black;
+  
+    text-decoration: none;
+  
+    font-size:60px;
+    
+  
+   
+  
+  }
+  
+  .login-box{
+  
+    width:520px;
+  
+    height:500px;
+  
+    background:pink;
+  
+    top:25%;
+  
+    left:25%;
+  
+    right:25%;
+  
+    bottom:25%;
+  
+    position:absolute;
+  
+    box-sizing:border-box;
+  
+    padding:70px 30px;
+  
+  } 
+  
+  .login-box h1{
+  
+    margin:0px;
+  
+    padding:0 0 20px;
+  
+    text-align:center;
+  
+    font-size:40px;
+  
+  }
+  
+  .login-box p{
+  
+    margin:0px;
+  
+    padding:0px;
+  
+    font-weight:bold;
+  
+  }
+  
+  .login-box input{
+  
+    width:100%;
+  
+    margin-bottom:20px;
+  
+  }
+  
+  .login-box input[type="text"],input[type="number"]
+  
+  {
+  
+    border:none;
+  
+    border-bottom:1px solid #fff;
+  
+    background:transparent;
+  
+    outline:none;
+  
+    height:40px;
+  
+    color:#fff;
+  
+    font-size:16px;
+  
+  }
+  
+   
+  
+   .login-box input[type="submit"]
+  
+  {
+  
+    border:none;
+  
+    outline:none;
+  
+    height:40px;
+  
+    background:skyblue;
+  
+    color:#fff;
+  
+    font-size:18px;
+  
+    border-radius:20px;
+  
+  }
+  
+      

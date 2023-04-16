@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Form</title>
+    <style>
+    
+      .bg-img{
+  background-image: url('/images/whatsimg2.jpg.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:480px;
+  height:450px;
+  margin:auto;
+  padding:60px;
+  margin-top: 80px;
+  text-align:center;
+  font-size:15px;
+  border-radius : 100px;
+}
+.link{
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+
+    </style>
+   
+</head>
+
+ <div class="bg-img">
+   <h1> Login Details WhatsApp form</h1>
+  <form action="">
+            <div class="clearfix">
+            <input id="fname" class="col2 first" type="text" placeholder="FirstName"><br><br>
+            <input id="lname" class="col2 last" type="text" placeholder="LastName"><br>
+<br>            </div>
+            <div class="clearfix">
+            <input id="email"  class="col2 first" type="email" placeholder="Email"><br><br>
+            <input id="mobile" class="col2 last" type="text" placeholder="Contact Number"><br><br>
+            </div>
+            <div class="clearfix">
+            <textarea name="textarea" id="message" cols="30" rows="7" placeholder="Your feedback..."></textarea><br>
+            </div>
+            <div><input onclick="whatsapp()" type="submit" value="Send"></div>
+        </form>
+        </div>
+        <div class="link">
+    <a href="index.html">Home</a>
+        </div>
+        <script>
+            function whatsapp(){
+                var fn = document.getElementById("fname").value;
+                var ln = document.getElementById("lname").value;
+                var email = document.getElementById("email").value;
+                var mobile = document.getElementById("mobile").value;
+                var message = document.getElementById("message").value;
+
+                var whatsappweb = "https://wa.me/8639198901?text="
+                + "Name : " + fn + " " +ln + "%0a"
+                + "Email ID : " + email + "%0a"
+                + "Mobile : " + mobile + "%0a"
+                + "Message From User : " + message;
+
+                window.open(whatsappweb, "_blank");
+            }
+        </script>
+</body>
+</html>
